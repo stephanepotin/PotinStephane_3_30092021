@@ -1,0 +1,39 @@
+body{
+    font-family: "roboto", "shrikhand", sans-serif;
+}
+#header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 80px;
+}
+.location_search
+{
+    display: flex;
+    justify-content: center;
+}
+.location_city
+{
+    border: none;
+}
+.explorer_titre, .explorer_text
+{
+    display: flex;
+    justify-content: center;
+}
+
+#_explorer
+{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column; 
+}
+.btn_explorer
+{
+   display: flex;
+   justify-content: center; 
+   text-decoration: none;
+   color: black;
+}
