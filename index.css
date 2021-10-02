@@ -36,4 +36,96 @@ body{
    justify-content: center; 
    text-decoration: none;
    color: black;
+   border-radius: 2px solid #9356DC !important;
+   margin: 10px;
+   padding: 10px;
+}
+.btn_fonctionnement
+{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    width: 350px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.fonctionnement_icone
+{
+    display:flex;
+    justify-content:right;
+    align-items: center;
+    border-radius: 25px;  
+    color: grey; 
+}
+.fonctionnement_list
+{
+    display: flex;
+    justify-content: space-between;
+}
+.fonctionnement_text
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.fonctionnement_nombre
+{
+    background-color: #9356DC;
+    border-radius: 500px;
+    align-items: center;
+    display: flex;
+}
+.restaurant_boite
+{
+
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-column-gap: 1em;
+    height
+
+}
+/*.restaurant_boite:nth-child(1)
+{
+    grid-row-start: 1;
+	grid-row-end: 1;
+	grid-column-start: 2;
+	grid-column-end: 3;
+    box-shadow: #F2F2F2 3px 6px ;
+}
+.restaurant_boite:nth-child(2)
+{
+    grid-row-start: 2;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 3;
+    box-shadow: #F2F2F2 3px 6px ;
+}
+.restaurant_boite:nth-child(3)
+{
+    grid-row-start:1 ;
+	grid-row-end:1 ;
+	grid-column-start: 4;
+	grid-column-end: 5;
+    box-shadow: #F2F2F2 3px 6px ;
+}
+.restaurant_boite:nth-child(4)
+{
+    grid-row-start: 2;
+	grid-row-end: 2;
+	grid-column-start: 4;
+	grid-column-end: 5;
+    box-shadow: #F2F2F2 3px 6px ;
+}
+.restaurant_img
+{
+    object-fit: cover;
+    width: 20px;
+}
+.heart-full
+{
+    width: 20px;
 }
