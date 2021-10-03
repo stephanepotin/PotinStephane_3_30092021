@@ -1,6 +1,12 @@
 body{
     font-family: "roboto", "shrikhand", sans-serif;
 }
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
 #header
 {
     display: flex;
@@ -8,15 +14,19 @@ body{
     justify-content: center;
     align-items: center; 
     height: 80px;
+    background-color: #F2F2F2;
 }
 .location_search
 {
     display: flex;
     justify-content: center;
+    background-color: #F2F2F2;
+    
 }
 .location_city
 {
     border: none;
+    background-color: #F2F2F2;
 }
 .explorer_titre, .explorer_text
 {
@@ -24,21 +34,23 @@ body{
     justify-content: center;
 }
 
-#_explorer
+#explorer
 {
     display: flex;
-    justify-content: center; 
+    justify-content: space-around;
+    align-items: center;
     flex-direction: column; 
 }
 .btn_explorer 
 {
-   display: flex;
+    display: flex;
    justify-content: center; 
-   text-decoration: none;
-   color: black;
-   border-radius: 2px solid #9356DC !important;
+   border: transparent solid 1px;
+   background-color: #ff79da;
+   border-radius: 30px;
    margin: 10px;
-   padding: 10px;
+   padding: 15px;
+   color: white;
 }
 .btn_fonctionnement
 {
@@ -68,8 +80,6 @@ body{
 {
     margin-left: 20px;
     margin-right: 20px;
-    text-decoration: none;
-    color: black;
 }
 .fonctionnement_nombre
 {
@@ -78,6 +88,18 @@ body{
     align-items: center;
     display: flex;
 }
+#restaurant
+{
+
+    width: auto;
+    background-color: #F2F2F2;
+    
+}
+#restaurant h2
+{
+    margin-left: 330px;
+
+}
 .restaurant_bloc
 {
 
@@ -85,16 +107,26 @@ body{
 	grid-template-columns: 24% 24% 24% 24%;
 	grid-template-rows: 50% 50%;
     grid-column-gap: 1em;
-    height: 500px;
+    height: 700px;
+}
+.restaurant_bloc :hover
+{
+    cursor: pointer;
+    transform: scale(1.03)
 }
 .restaurant_boite
 {
     border-radius: 10px;
+    position: relative;  
+    background-color: white;
+    height: 300px;
 }
-.restaurant_boite
+.restaurant_card p
 {
-    cursor: pointer;
-    transform: scale(1.03)
+    position: absolute;
+    padding: 10px;
+    left: 60%;
+    background-color: #99E2D0;
 }
 .restaurant_boite:nth-child(1)
 {
@@ -135,16 +167,38 @@ body{
     object-fit: cover;
     width: 100%;
     height: 150px;
-    border-radius: 10px ;
+    border-radius: 10px 10px 0 0;
 
 }
 .heart-full
 {
     width: 20px;
 }
-.restaurant_titre, .restaurant_titre h4, .restaurant_titre p
+#footer
 {
     display: flex;
-    text-decoration: none;
-
+    flex-direction: column;
+    background: #353535;
+    color: white;
+    height: 100px;
+}
+.footer_titles
+{
+    display: flex;
+    justify-content:space-around;
+    margin-left: -100px;
+}
+.foot_title :hover
+{
+    border-bottom: white solid 1px;
+    cursor: pointer;
+}
+.footer_logo
+{
+    width: 100px;
+    margin: 20px;
+}
+.petitfoot
+{
+    color: white;
 }
