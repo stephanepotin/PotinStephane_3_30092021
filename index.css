@@ -186,6 +186,7 @@ a
 {
     width: 20px;
 }
+
 .footer
 {
     display: flex;
@@ -222,5 +223,7 @@ a
 }
 .petitfoot:hover
 {
-    border-bottom: white solid 1px;
+    cursor: pointer;
+    transform: scale(1.03)
 }
+

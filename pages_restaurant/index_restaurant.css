@@ -34,28 +34,84 @@ object-fit: cover;
 }
 #menu
 {
-
+    position: relative;
+    bottom: 150px;
     background-color: #f2f2f2;
     border-radius: 30px 30px 0 0;
+    height: auto;
 }
 .menu_header
 {
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    margin: 30px;
 
     
 }
 .menu_header_title 
 {
+    display: flex;
+    justify-content: left;
     font-family: "shrikhand", cursive;
+}
+.menu_header_heart
+{
+    display: flex;
+    text-align: center;
 }
 .heart-full
 {
     width: 20px;
+}
+#menu
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu_grid
+{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 24% 24% 24% 24%;
+    grid-column-gap: 1em;
+    height: 400px;
+    width: 90%;  
+}
+.menu_grid_boite
+{
+    padding: 0;
+}
+.menu_plat_et_prix
+{
+    
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10%;
+    border: solid black 1px;
+    background-color: white;
+}
+.plat
+{
+    display: flex;
+    flex-direction:column ;
 
 }
-
+.prix
+{   
+    display: flex;
+    align-items: flex-end;
+}
+.btn_commande
+{
+    display: flex; 
+   border: transparent solid 1px;
+   background-color: #ff79da;
+   border-radius: 30px;
+   margin: 10px;
+   padding: 15px;
+   color: white;
+}
 .footer
 {
     display: flex;
