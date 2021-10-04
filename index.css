@@ -75,18 +75,26 @@ a
 {
     display: flex;
     justify-content: space-between;
+
 }
 .fonctionnement_text
 {
     margin-left: 20px;
     margin-right: 20px;
+
 }
 .fonctionnement_nombre
 {
+   position: absolute;
     background-color: #9356DC;
     border-radius: 500px;
     align-items: center;
+    width: 25px;
+    height: 25px;
     display: flex;
+    justify-content: center;
+    color: white;
+    margin: 15px 50px 0 0px;
 }
 #restaurant
 {
