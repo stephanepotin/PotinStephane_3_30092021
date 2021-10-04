@@ -28,7 +28,7 @@ a
     border: none;
     background-color: #F2F2F2;
 }
-.explorer_titre, .explorer_text
+.explorer_text
 {
     display: flex;
     justify-content: center;
@@ -202,11 +202,13 @@ a
     font-family: "shirkhand";
     font-style: oblique;
     
+    
 
 }
 .petitfoot
 {
     color: white;
+
 }
 .petitfoot:hover
 {
