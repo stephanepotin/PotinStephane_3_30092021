@@ -1,5 +1,5 @@
 body{
-    font-family: "roboto", "shrikhand", sans-serif;
+    font-family: "roboto", sans-serif;
 }
 a
 {
@@ -178,12 +178,13 @@ a
 {
     width: 20px;
 }
-#footer
+.footer
 {
     display: flex;
     flex-direction: column;
     background: #353535;
     color: white;
+    
     height: 100px;
     padding: 20px;
 }
@@ -199,8 +200,9 @@ a
 {
     width: 110px;
     margin: 20px;
-    font-family: "shirkhand";
-    font-style: oblique;
+    font-family: "roboto", "shrikhand", sans-serif;
+    font-style:normal;
+    font-weight: bolder;
     
     
 
