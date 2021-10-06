@@ -1,18 +1,27 @@
 body{
     font-family: "roboto", sans-serif;
     background-color: #f2f2f2;
+    margin:0;
+    padding-top: 80px;
 }
 #header
 {
     
     display: flex;
-    padding: 30px;
+    padding: 15px;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    background-color: #f2f2f2;  
+    top: 0;  
+
     
 }
 .header_arrow
 {
+    margin-top: 10px;
     margin-left: 50px;
-    margin-right: 500px;
+    margin-right: 400px;
 }
 a
 {
@@ -26,7 +35,7 @@ a
 }
 .img_menu
 {
-object-fit: cover;
+    object-fit: cover;
     height: 100%;
     width: 100%;
     margin-top: -20px;
