@@ -59,14 +59,13 @@ a
     align-items: center;
     border: 2px solid #f2f2f2;
     height: 50px;
-    width: 350px;
+    width: 250px;
     border-radius: 30px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .fonctionnement_icone
 {
-    display:flex;
-    justify-content:right;
+
     align-items: center;
     border-radius: 25px;  
     color: grey; 
@@ -74,7 +73,7 @@ a
 .fonctionnement_list
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around
 
 }
 .fonctionnement_text
@@ -94,7 +93,7 @@ a
     display: flex;
     justify-content: center;
     color: white;
-    margin: 15px 50px 0 0px;
+    margin: 15px 50px 0 0 ;
 }
 #restaurant
 {
