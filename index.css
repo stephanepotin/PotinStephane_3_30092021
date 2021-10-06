@@ -60,11 +60,16 @@ a
    margin: 10px;
    padding: 15px;
    color: white;
+   box-shadow: #c2bfbf 3px 3px 6px 6px;
+   
 }
-    /*fonctionnement*/
+.btn_explorer:hover
+{
+    box-shadow: #797070 3px 3px 6px 6px;
+}    /*fonctionnement*/
 #fonctionnement
 {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -74,6 +79,7 @@ a
     justify-content:right;
     align-items: center;
     border: 2px solid #f2f2f2;
+    
     height: 50px;
     width: 250px;
     border-radius: 30px;
@@ -87,12 +93,19 @@ a
     border-radius: 25px;  
     color: grey; 
 }
+.btn_fonctionnement:hover
+{
+    box-shadow: #353535 3px 3px 6px 6px;
+    background-color: rgba(147, 86, 220, 0.2 );
+    border: rgba(147, 86, 220, 0.2 );
+
+}
 .fonctionnement_list
 {
     display: flex;
     justify-content: space-around;
-
 }
+
 .fonctionnement_text
 {
     margin-left: 20px;
@@ -147,14 +160,15 @@ a
 .restaurant_boite:hover
 {
     cursor: pointer;
-    transform: scale(1.03)
+    transform: scale(1.03);
+    box-shadow: #797070 3px 3px 6px 6px;
 }
 .restaurant_card p
 {
     position: absolute;
     padding: 10px;
     right: 5%;
-    background-color: #99E2D0;
+    background-color:#99E2D0;
 }
 .restaurant_box
 {
@@ -174,7 +188,7 @@ a
 	grid-row-end: 2;
 	grid-column-start: 1;
 	grid-column-end: 3;
-    box-shadow: #353535 3px 3px 3px 3px;
+
 }
 .restaurant_boite:nth-child(2)
 {
@@ -182,7 +196,7 @@ a
 	grid-row-end: 2;
 	grid-column-start: 3;
 	grid-column-end: 5;
-    box-shadow: #353535 3px 3px 3px 3px;
+
 }
 .restaurant_boite:nth-child(3)
 {
@@ -190,7 +204,7 @@ a
 	grid-row-end:3;
 	grid-column-start: 1;
 	grid-column-end: 3;
-    box-shadow: #353535 3px 3px 3px 3px;
+
 
 }
 .restaurant_boite:nth-child(4)
@@ -199,7 +213,7 @@ a
 	grid-row-end: 3;
 	grid-column-start: 3;
 	grid-column-end: 5;
-    box-shadow: #353535 3px 3px 3px 3px;
+
 }
 .restaurant_img
 {
