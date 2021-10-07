@@ -34,8 +34,8 @@ a
 }
 #menu
 {
-   /*position: relative;*/
-    /*margin-top:-3em;*/
+   position: relative;
+    margin-top:-3em;
     background-color: #f2f2f2;
     border-radius: 30px 30px 0 0;
     width: 100%;
@@ -44,8 +44,8 @@ a
 }
 .menu_header
 {
-    margin: 10px;
-    padding: 20px;
+
+    padding: 50px;
     display: flex;
     justify-content: space-between;
 
@@ -62,7 +62,7 @@ a
 }
 .heart-full
 {
-
+    margin-right: 30px;
     width: 20px;
 }
 
@@ -71,14 +71,15 @@ a
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
     grid-column-gap: 1em;
-    height: 400px;
-    width: 95%;  
+    height: 330px;
+    width: 90%;  
+    margin: 50px;
 }
 .menu_grid_title
 {
     position: absolute;
     top: -10%;
-    width: 4em;
+    width: 10%;
     margin-top: -10px;
     border-bottom: solid 3px #99E2D0;
 }
@@ -131,12 +132,17 @@ a
 .btn_commande
 {
     display: flex; 
+    justify-content: center;
    border: transparent solid 1px;
    background-color: #ff79da;
    border-radius: 30px;
    margin: 10px;
    padding: 15px;
    color: white;
+   font-size: 20px;
+   width: 200px;
+   cursor: pointer;
+   
 }
 .footer
 {

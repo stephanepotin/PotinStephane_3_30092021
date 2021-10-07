@@ -79,7 +79,7 @@ a
     justify-content:right;
     align-items: center;
     border: 2px solid #f2f2f2;
-    
+    cursor: pointer;
     height: 50px;
     width: 250px;
     border-radius: 30px;
@@ -225,6 +225,7 @@ a
 }
 .heart-full
 {
+    background: chartreuse;
     width: 20px;
 }
 /*footer*/
