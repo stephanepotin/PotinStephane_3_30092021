@@ -253,9 +253,6 @@ a
     font-family: "roboto", "shrikhand", sans-serif;
     font-style:normal;
     font-weight: bolder;
-    
-    
-
 }
 .petitfoot
 {
@@ -264,7 +261,6 @@ a
 }
 .petitfoot:hover
 {
-    cursor: pointer;
-    transform: scale(1.03)
+    border-bottom: white solid 1px;
 }
 
