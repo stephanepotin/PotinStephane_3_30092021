@@ -1,11 +1,16 @@
-
+header
+{
+    box-shadow: #d5d5d5 5px 5px 5px 5px;
+}
 /*main*/
     /*section location*/
 #location
 {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #eaeaea;
+    padding: 15px;
 }
 .location__city
 {
@@ -21,6 +26,7 @@
     align-items: center;
     flex-direction: column; 
     background-color: #f6f6f6;
+    padding: 15px;
 
 }.explorer_text
 {
@@ -131,6 +137,7 @@
     padding: 10px;
     right: 5%;
     background-color:#99E2D0;
+    color: #42af94;
 }
 .restaurant_box
 {
@@ -185,5 +192,3 @@
     border-radius: 10px 10px 0 0;
 
 }
-
-
