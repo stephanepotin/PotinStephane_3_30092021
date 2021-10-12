@@ -1,30 +1,8 @@
-body{
-    font-family: "roboto", sans-serif;
-    margin:0;
-    padding-top: 80px;
-}
-header
+#header_arrow
 {
-    display: flex;
-    padding: 15px;
-    width: 100%;
-    z-index: 1;
-    position: fixed;
-    background-color: #f2f2f2;  
-    top: 0;  
+    position: absolute;
+    left: 20%;
 }
-.header_arrow
-{
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 500px;
-}
-a
-{
-    text-decoration: none;
-    color:black;
-}
-
 .img_menu
 {
     width: 100%;
@@ -60,12 +38,6 @@ a
     display: flex;
     text-align: center;
 }
-.heart-full
-{
-    margin-right: 30px;
-    width: 20px;
-}
-
 .menu_grid
 {
 	display: grid;
@@ -129,18 +101,4 @@ a
     justify-content: center;
     padding-bottom: 10px;
 }
-.btn_commande
-{
-    display: flex; 
-    justify-content: center;
-   border: transparent solid 1px;
-   background-color: #ff79da;
-   border-radius: 30px;
-   margin: 10px;
-   padding: 15px;
-   color: white;
-   font-size: 20px;
-   width: 200px;
-   cursor: pointer;
-   
-}
+

@@ -1,3 +1,50 @@
+body{
+    font-family: "roboto", sans-serif;
+    margin: 0;
+    padding-top: 80px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+/*header*/
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 80px;
+    width: 100%;
+    background-color: #F2F2F2;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+/*section*/
+.heart-full
+{
+
+    width: 20px;
+}
+.btn__explorerandcommand 
+{
+    display: flex; 
+    justify-content: center;
+   border: transparent solid 1px;
+   background-color: #ff79da;
+   border-radius: 30px;
+   margin: 10px;
+   padding: 15px;
+   color: white;
+   font-size: 20px;
+   width: 300px;
+   cursor: pointer;
+}
+.btn__explorerandcommand:hover
+{
+    box-shadow: #797070 3px 3px 6px 6px;
+} 
 /*footer*/
 footer
 {
