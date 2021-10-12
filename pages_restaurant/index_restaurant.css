@@ -3,7 +3,7 @@ body{
     margin:0;
     padding-top: 80px;
 }
-#header
+header
 {
     display: flex;
     padding: 15px;
@@ -22,7 +22,7 @@ body{
 a
 {
     text-decoration: none;
-    color: black;
+    color:black;
 }
 
 .img_menu
@@ -143,38 +143,4 @@ a
    width: 200px;
    cursor: pointer;
    
-}
-.footer
-{
-    display: flex;
-    flex-direction: column;
-    background: #353535;
-    color: white;
-    height: 100px;
-    padding: 20px;
-}
-.footer_titles
-{
-    display: flex;
-    justify-content:space-around;
-    margin-right:190px;
-    margin-left: -60px; 
-}
-
-.footer_logo h2
-{
-    width: 110px;
-    margin: 20px;
-    font-family: "roboto", "shrikhand", sans-serif;
-    font-style:normal;
-    font-weight: bolder;
-}
-.petitfoot
-{
-    color: white;
-
-}
-.petitfoot:hover
-{
-    border-bottom: white solid 1px;
 }

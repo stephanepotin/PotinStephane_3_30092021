@@ -9,7 +9,7 @@ a
     color: black;
 }
 /*header*/
-#header
+header
 {
     display: flex;
     flex-direction: column;
@@ -23,25 +23,20 @@ a
     top: 0;
 }
 /*main*/
-    /*localisation*/
-.location_search
+    /*section location*/
+#location
 {
     display: flex;
     justify-content: center;
     background-color: #F2F2F2;
 }
-.location_city
+.location__city
 {
     border: none;
     background-color: #F2F2F2;
     font-size: 1.2em;
 }
-.explorer_text
-{
-    display: flex;
-    justify-content: center;
-}
-
+/*section explorer*/
 #explorer
 {
     display: flex;
@@ -49,70 +44,42 @@ a
     align-items: center;
     flex-direction: column; 
 
-}
-.btn_explorer 
+}.explorer_text
 {
     display: flex;
-   justify-content: center; 
+    justify-content: center;
+}
+.btn__explorerandcommand 
+{
+    display: flex; 
+    justify-content: center;
    border: transparent solid 1px;
    background-color: #ff79da;
    border-radius: 30px;
    margin: 10px;
    padding: 15px;
    color: white;
-   box-shadow: #c2bfbf 3px 3px 6px 6px;
-   
+   font-size: 20px;
+   width: 300px;
+   cursor: pointer;
 }
-.btn_explorer:hover
+.explorer__btn:hover
 {
     box-shadow: #797070 3px 3px 6px 6px;
-}    /*fonctionnement*/
+}   
+ /*section fonctionnement*/
 #fonctionnement
 {
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
 }
-.btn_fonctionnement
-{
-    display: flex;
-    justify-content:right;
-    align-items: center;
-    border: 2px solid #f2f2f2;
-    cursor: pointer;
-    height: 50px;
-    width: 250px;
-    border-radius: 30px;
-    margin-right: 20px;
-    margin-left: 10px;
-}
-.fonctionnement_icone
-{
-
-    align-items: center;
-    border-radius: 25px;  
-    color: grey; 
-}
-.btn_fonctionnement:hover
-{
-    box-shadow: #353535 3px 3px 6px 6px;
-    background-color: rgba(147, 86, 220, 0.2 );
-    border: rgba(147, 86, 220, 0.2 );
-
-}
-.fonctionnement_list
+#fonctionnement__list
 {
     display: flex;
     justify-content: space-around;
 }
-
-.fonctionnement_text
-{
-    margin-left: 20px;
-    margin-right: 20px;
-
-}
-.fonctionnement_nombre
+.fonctionnement__nombre
 {
     position: absolute;
     background-color: #9356DC;
@@ -126,7 +93,40 @@ a
     margin: 15px 0px 0 0;
 
 }
+.fonctionnement__btn
+{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    cursor: pointer;
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.fonctionnement__icone
+{
+
+    align-items: center;
+    border-radius: 25px;  
+    color: grey; 
+}
+.fonctionnement__text
+{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.fonctionnement__btn:hover
+{
+    box-shadow: #353535 3px 3px 6px 6px;
+    background-color: rgba(147, 86, 220, 0.2 );
+    border: rgba(147, 86, 220, 0.2 );
+}
     /*restaurant*/
+
 #restaurant
 {
     padding-top: 10px;
@@ -136,11 +136,7 @@ a
     background-color: #F2F2F2;
     
 }
-#restaurant h2, #fonctionnement h2
-{
-    margin-left: 50px;
-}
-.restaurant_bloc
+#restaurant__bloc
 {
 
 	display: grid;
@@ -225,43 +221,7 @@ a
 }
 .heart-full
 {
-    background: chartreuse;
+
     width: 20px;
-}
-/*footer*/
-.footer
-{
-    display: flex;
-    flex-direction: column;
-    background: #353535;
-    color: white;
-    
-    height: 100px;
-    padding: 20px;
-}
-.footer_titles
-{
-    display: flex;
-    justify-content:space-around;
-    margin-right:190px;
-    margin-left: -60px; 
-}
-
-.footer_logo h2
-{
-    width: 110px;
-    margin: 20px;
-    font-family: "roboto", "shrikhand", sans-serif;
-    font-style:normal;
-    font-weight: bolder;
-}
-.petitfoot
-{
-    color: white;
-
-}
-.petitfoot:hover
-{
-    border-bottom: white solid 1px;
 }
 

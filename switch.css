@@ -1,0 +1,38 @@
+/*footer*/
+footer
+{
+    display: flex;
+    flex-direction: column;
+    background: #353535;
+    color: white;
+    
+    height: 100px;
+    padding: 20px;
+}
+#footer__logo 
+{
+    width: 110px;
+    margin: 20px;
+    font-family: "roboto", "shrikhand", sans-serif;
+    font-style:normal;
+    font-weight: bolder;
+}
+#footer__titles
+{
+    display: flex;
+    justify-content:space-around;
+    margin-right:190px;
+    margin-left: -60px; 
+}
+
+
+.footer__text
+{
+    color: white;
+
+}
+.footer__text:hover
+{
+    border-bottom: white solid 1px;
+}
+
