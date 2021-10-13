@@ -192,3 +192,8 @@ header
     border-radius: 10px 10px 0 0;
 
 }
+.far.fa-heart, .fas.fa-heart
+{
+    right: 25px;
+    bottom: 13px;
+}

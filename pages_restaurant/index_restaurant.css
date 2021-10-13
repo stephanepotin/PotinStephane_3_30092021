@@ -23,20 +23,19 @@
 .menu_header
 {
 
-    padding: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 100px;
 
 
 }
 .menu_header_title 
 {
+    padding-top: 20px;
     font-family: "shrikhand", cursive;
-}
-.menu_header_heart
-{
-    display: flex;
-    text-align: center;
+
 }
 .menu_grid
 {
