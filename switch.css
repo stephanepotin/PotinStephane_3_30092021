@@ -21,7 +21,6 @@ a
     align-items: center;
     visibility:  hidden;
     transition:3s;
-    transition-property: all;
 
     
 }
