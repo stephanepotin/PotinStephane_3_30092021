@@ -116,8 +116,9 @@ header
 {
     display: flex; 
     justify-content: center;
-   border: transparent solid 1px;
-   background-color: #ad5fdc;
+   background-color: #686868;
+  border: transparent 0px solid;
+   background-image: linear-gradient(-1deg,rgba(147,86,220,9),rgba(255,121,218,9));
    border-radius: 30px;
    margin: 10px;
    padding: 15px;
