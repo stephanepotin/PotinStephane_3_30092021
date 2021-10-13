@@ -197,4 +197,10 @@ footer
 {
     border-bottom: white solid 1px;
 }
-
+@media screen and (max-width: 300px)
+{
+    header
+    {
+        width: 100%;
+    }
+}

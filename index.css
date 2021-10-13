@@ -197,3 +197,111 @@ header
     right: 25px;
     bottom: 13px;
 }
+@media screen and (max-width:1000px) 
+{
+    #fonctionnement__list
+    {
+        display: grid;
+        grid-template-columns: 17% 17% 17% 17% 17% 17%;
+        width: 100%;
+        
+    }
+    .fonctionnement__boite:nth-child(1)
+    {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding: 10px;
+        margin-right: 25px;
+    }
+    .fonctionnement__boite:nth-child(2)
+    {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 5;
+        grid-column-end: 6;
+        padding: 10px;
+        margin-left: 25px;
+
+    }
+    .fonctionnement__boite:nth-child(3)
+    {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        padding: 10px;
+    }
+    footer
+    {
+        height: 100% !important;
+        align-items: center;
+ 
+    }
+    #footer__titles
+    {
+        margin-left: 0% !important;
+        margin-right: 0 !important;
+        flex-direction: column;
+        align-items: center;
+    }  
+}
+@media screen and (max-width: 600px)
+{
+
+    #location
+    {
+        width: 100%;
+    }
+    #explorer
+    {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;  
+    }
+    #fonctionnement__list
+    {
+        display: grid;
+        grid-template-columns: 100%;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .fonctionnement__boite:nth-child(1)
+    {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-right: 0px !important;
+
+
+    }
+    .fonctionnement__boite:nth-child(2)
+    {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-left: 0px !important;
+
+
+    }
+    .fonctionnement__boite:nth-child(3)
+    {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+    }
+    #restaurant__bloc
+    {
+        display:flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+}
