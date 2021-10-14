@@ -46,6 +46,12 @@
     width: 90%;  
     margin: 50px;
 }
+.grid__bloc
+{
+    position: relative;
+    padding: 10px;
+}
+
 .grid__title
 {
     position: absolute;
@@ -53,12 +59,6 @@
     width: 10%;
     margin-top: -10px;
     border-bottom: solid 3px #99E2D0;
-}
-
-.grid__bloc
-{
-    position: relative;
-    padding: 10px;
 }
 .grid__boite
 {
@@ -94,6 +94,30 @@
 {
     margin: 2px;
 }
+.confirmation
+{
+    padding: 10px;
+    background-color: #99E2D0;
+    border-radius: 10px 0px 0px 10px;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+
+
+}
+.confirmation:hover
+{
+   opacity: 1;
+    transition: 5s;
+    transform: rotate(180deg);
+}
+.color-confirmation
+{   
+    background-color: #99E2D0;
+    color: #fff;
+    animation: rotation;
+}
+
 .grid__commander
 {
     display: flex;

@@ -114,7 +114,7 @@ header
     justify-content: center;
    background-color: #686868;
   border: transparent 0px solid;
-   background-image: linear-gradient(-1deg,rgba(147,86,220,9),rgba(255,121,218,9));
+   background-image: linear-gradient(0deg,rgba(147,86,220,9),rgba(255,121,218,9));
    border-radius: 30px;
    margin: 10px;
    padding: 15px;
@@ -138,27 +138,18 @@ header
     opacity: 0;
 }
 .fas.fa-heart:hover
-{
-    animation:couleur;
-    animation-duration: 2s;
-    animation-delay: 0s;
-    animation-timing-function: ease;
-    
-}
-@keyframes couleur 
-{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }    
+{   
+    transition: 1s;
+    opacity: 1;
+    background-color: #686868;
+    border: transparent 0px solid;
 }
 .fas.fa-heart
 {
     font-size: 1.5rem;
     position: absolute;
     background: linear-gradient(0deg, rgba(147,86,220,9), rgba(255,121,218,9));
+    background-clip: border-box;
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
     opacity: 0;

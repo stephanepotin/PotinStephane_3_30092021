@@ -117,7 +117,7 @@ header
     grid-column-gap: 1em;
     height: 600px;
 }
-.restaurant_boite
+.restaurant__boite
 {
     border-radius: 10px;
     position: relative;  
@@ -125,13 +125,13 @@ header
     height: 250px;
     margin: 10px;
 }
-.restaurant_boite:hover
+.restaurant__boite:hover
 {
     cursor: pointer;
     transform: scale(1.03);
     box-shadow: #797070 3px 3px 6px 6px;
 }
-.restaurant_card p
+.restaurant__card p
 {
     position: absolute;
     padding: 10px;
@@ -139,7 +139,7 @@ header
     background-color:#99E2D0;
     color: #42af94;
 }
-.restaurant_box
+.restaurant__box
 {
     display: flex;
     justify-content: space-between;
@@ -147,11 +147,11 @@ header
     margin-left: 20px;
     margin-right: 40px;
 }
-.restaurant_titre h4, .restaurant_titre p
+.restaurant__titre h4, .restaurant__titre p
 {
     margin: 2px;
 }
-.restaurant_boite:nth-child(1)
+.restaurant__boite:nth-child(1)
 {
     grid-row-start: 1;
 	grid-row-end: 2;
@@ -159,7 +159,7 @@ header
 	grid-column-end: 3;
 
 }
-.restaurant_boite:nth-child(2)
+.restaurant__boite:nth-child(2)
 {
     grid-row-start: 1;
 	grid-row-end: 2;
@@ -167,7 +167,7 @@ header
 	grid-column-end: 5;
 
 }
-.restaurant_boite:nth-child(3)
+.restaurant__boite:nth-child(3)
 {
     grid-row-start:2 ;
 	grid-row-end:3;
@@ -176,7 +176,7 @@ header
 
 
 }
-.restaurant_boite:nth-child(4)
+.restaurant__boite:nth-child(4)
 {
     grid-row-start: 2;
 	grid-row-end: 3;
@@ -184,7 +184,7 @@ header
 	grid-column-end: 5;
 
 }
-.restaurant_img
+.restaurant__img
 {
     object-fit: cover;
     width: 100%;
