@@ -1,57 +1,48 @@
 #header__arrow
 {
     position: absolute;
-    left: 30%;
+    left: 8%;
 }
 .img__menu
 {
     width: 100%;
     height:500px;
     object-fit: cover;
-
 }
 #menu
 {
    position: relative;
     margin-top:-13em;
-    background-color: #eaeaea;
+    background-color: #f6f6f6;
     border-radius: 30px 30px 0 0;
-    width: 100%;
-    display: block;
-
+    width:100%;
+    height: 100%;
+    padding-bottom: 50px;
+    margin-right: 20px;
 }
 .menu__header
 {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 60px;
-    margin-right: 100px;
-
-
+    margin-left: 20px;
+    margin-right: 50px;
 }
 .menu__title 
 {
     padding-top: 10px;
     font-family: "shrikhand", cursive;
-
 }
 .grid__menu
 {
-	display: grid;
-	grid-template-columns: 33% 33% 33%;
-    height:430px;
-    width: 100%;
-    margin-bottom: 50px;  
-    
+	display: flex;
+    margin-bottom: 50px; 
 }
 .grid__bloc
 {
-    padding: 10px;
-    margin: 5px;
+    padding: 20px;
+    margin: 20px;
 }
-
 .grid__title
 {
     width: 2.5rem;
@@ -61,19 +52,14 @@
 .grid__boite
 {   
     background-color: #fff;
-    height: 70px;
-    padding: 10px 0 10px 0 ;
-    margin: 20px 20px 20px 0px ;
+    margin: 15px 15px 15px 0px ;
     cursor: pointer;
-    align-items: center;
     width: 100%;
     border-radius: 1.5rem;
     box-shadow: 3px 3px 10px #dedada; 
     animation: menuderoulement  2s ;
     animation-fill-mode: forwards;
-    overflow: hidden;
 }
-
 @keyframes menuderoulement 
 {
     0%
@@ -89,51 +75,50 @@
 }
 .grid__platprix
 {   
-    position: absolute;
     display: flex;
     justify-content: space-between;
-    bottom: 15px;
+    width: 300px;
+    margin: 20px;
 
 }
-.plat 
-{   
-    padding: 0 0 0px 10px ;
+.plat h4
+{
+    margin-bottom: 5px;
 }
 .plat p 
 {
-    margin: 0;
+    margin: 0px;
 }
 .grid__confirmation
 {      
-    position: absolute;
-    left:  375px;
-    top: 4px;
+    position: relative;
+    right: -80px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     color:black;
     cursor: pointer;
-
 }
 
 .grid__confirmation:hover
 {
-    animation: slide 2s;
+    animation: slide 1s ;
+    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
     animation-fill-mode: forwards;
+    
+}
+.grid__confirmation:hover i
+{
+    transform: rotate(360deg);
+    transition-duration: 1s ;
 }
 .prix
 {
-    padding: 20px 20px 20px 20px ;
+    padding:8px ;
     background-color: white;
 }
 .fa-check.fas
 {   
     padding: 40px 30px 30px 30px ;
-    align-items: center;
- 
 }
-
-
 @keyframes slide
 {
     0%
@@ -143,30 +128,41 @@
     }
     100%
     {
-        transform: translateX(-80px);
+        transform: translateX(-30px);
 
     }    
 }
-.slide
+.check
 {
-
     font-size: 20px;
     background-color: #99e2d0;
     color:white; 
     border-radius: 0 1.5rem 1.5rem 0 ;
 }
-
 .grid__commander
 {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
 }
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 1200px)
 { 
-    #header__arrow
+    .grid__menu
     {
-        position: absolute;
-        left: 10%;
+        flex-direction: column;
     }
+    .grid__platprix
+    {
+        width: auto;
+    }
+    .grid__confirmation
+    {      
+    position: relative;
+    right: -51px;
+    }
+    .plat
+    {
+    overflow: hidden;
+    white-space: nowrap;
+    }
+
 }
