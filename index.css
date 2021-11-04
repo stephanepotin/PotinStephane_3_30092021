@@ -234,6 +234,10 @@ header
         grid-column-end: 4;
         padding: 10px;
     }
+    #restaurant
+    {
+        height: auto;
+    }
 
 }
 @media screen and (max-width: 600px)
@@ -247,7 +251,7 @@ header
     {
         flex-direction: column;
         text-align: center;
-        justify-content: center;  
+        justify-content: center; 
     }
     #restaurant
     {
