@@ -89,7 +89,7 @@
 .plat
 {
     padding:0px 5%;
-    width: calc (100% - 80px)
+    width: calc(100% - 80px)
 }
 .plat h3, .plat p
 {
@@ -109,7 +109,7 @@
 }
 .grid__platprix:hover  .plat h3, .grid__platprix:hover .plat p
 {
-    width: calc (100% - 60px);
+    width: calc(100% - 60px);
 }
 .grid__confirmation:hover
 {
