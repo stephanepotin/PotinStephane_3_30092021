@@ -111,12 +111,12 @@
 {
     width: calc(100% - 60px);
 }
-.grid__confirmation:hover
+.grid__boite:hover .grid__confirmation
 {
     animation: slide 1s ;
     animation-fill-mode: forwards;
 }
-.grid__confirmation:hover i
+.grid__boite :hover i
 {
     transform: rotate(360deg);
     transition-duration: 1.2s ;
